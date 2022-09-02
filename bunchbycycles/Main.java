@@ -18,7 +18,7 @@ public class Main {
             else if (cycles[i] >= 400 && cycles[i] <= 919) {    //checking the conditions if charged between 400 and 919 times
                 counts.mediumCount++;
             } else {
-                counts.highCount++;     //checking the conditions if charged more than 920 times
+                counts.highCount++;     //checking the conditions if charged more than 920 times.
             }
         }
     return counts;
